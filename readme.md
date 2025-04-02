@@ -137,7 +137,10 @@ Build 3D_Sinogram_Generation_and_Reconstruction from the source and intsall depe
 
 3. **Install the dependencies:**
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+    ```sh
+    ❯ pip install numpy trimesh pyvista matplotlib
+    ❯ conda install -c astra-toolbox astra-toolbox --yes
+    ```
 
 ### Usage
 
